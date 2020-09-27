@@ -10,16 +10,13 @@
       </div>
       <hr class="hr-style" />
       <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="assets/images/Albania.png" class="shadow" />
+        <div class="col-md-6 text-center">
+          <img src="assets/images/Albania.png" class="shadow globe-image-size" />
           <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
           <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
         </div>
-        <div class="col-md-2">
-
-        </div>
         <div class="col-md-6 space">
-          <table>
+          <table class="information-spacing">
             <tr>
               <td class="member-profile-title">
                 Country:
@@ -60,6 +57,17 @@
                 Lek (ALL)
               </td>
             </tr>
+            <tr>
+              <td class="member-profile-title">
+                Anthem:
+              </td>
+              <td class="member-profile-text">
+                <audio id="player" src="/assets/anthems/Albania.mp3" type="audio/mpeg"></audio>
+                Himni i Flamurit
+                  <a class="cursor" onclick="document.getElementById('player').play()">(Play</a>/
+                  <a class="cursor" onclick="document.getElementById('player').pause()">Pause)</a>
+              </td>
+            </tr>
           </table>
         </div>
       </div>
@@ -68,7 +76,7 @@
         <div class="col-md-6">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="text-center">National Dish - Tave Kosi</h5>
+              <h5 class="text-center">National Dish - Tav&#235; Kosi</h5>
               <hr />
               <img src="assets/images/TaveKosi.jpeg" class="dish-image-size" />
             </div>

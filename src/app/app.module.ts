@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { AfghanistanComponent } from './afghanistan/afghanistan.component';
 import { HomeComponent } from './home/home.component';
 import { AlbaniaComponent } from './albania/albania.component';
+import { AlgeriaComponent } from './algeria/algeria.component';
+import { AndorraComponent } from './andorra/andorra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AfghanistanComponent,
     HomeComponent,
-    AlbaniaComponent
+    AlbaniaComponent,
+    AlgeriaComponent,
+    AndorraComponent
   ],
   imports: [
     BrowserModule,

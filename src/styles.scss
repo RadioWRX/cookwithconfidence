@@ -36,3 +36,24 @@
 .country-text {
   padding-top: 50px;
 }
+
+ol {
+  list-style-type: none;
+  counter-reset: my-awesome-counter;
+  text-align: justify;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  margin: 10px 0;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 5px;
+
+
+
+  color: #000;
+}

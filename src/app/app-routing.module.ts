@@ -7,6 +7,7 @@ import { AfghanistanComponent } from './afghanistan/afghanistan.component';
 import { AlbaniaComponent } from './albania/albania.component';
 import { AlgeriaComponent } from './algeria/algeria.component';
 import { AndorraComponent } from './andorra/andorra.component';
+import { AngolaComponent } from './angola/angola.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'afghanistan', component: AfghanistanComponent },
   { path: 'albania', component: AlbaniaComponent },
   { path: 'algeria', component: AlgeriaComponent },
-  { path: 'andorra', component: AndorraComponent }
+  { path: 'andorra', component: AndorraComponent },
+  { path: 'angola', component: AngolaComponent }
 ];
 
 @NgModule({

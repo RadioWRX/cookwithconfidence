@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AlbaniaComponent } from './albania/albania.component';
 import { AlgeriaComponent } from './algeria/algeria.component';
 import { AndorraComponent } from './andorra/andorra.component';
+import { AngolaComponent } from './angola/angola.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AndorraComponent } from './andorra/andorra.component';
     HomeComponent,
     AlbaniaComponent,
     AlgeriaComponent,
-    AndorraComponent
+    AndorraComponent,
+    AngolaComponent
   ],
   imports: [
     BrowserModule,

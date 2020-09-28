@@ -9,6 +9,7 @@ import { AlbaniaComponent } from './albania/albania.component';
 import { AlgeriaComponent } from './algeria/algeria.component';
 import { AndorraComponent } from './andorra/andorra.component';
 import { AngolaComponent } from './angola/angola.component';
+import { AntiguaComponent } from './antigua/antigua.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AngolaComponent } from './angola/angola.component';
     AlbaniaComponent,
     AlgeriaComponent,
     AndorraComponent,
-    AngolaComponent
+    AngolaComponent,
+    AntiguaComponent
   ],
   imports: [
     BrowserModule,

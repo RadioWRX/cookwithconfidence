@@ -10,6 +10,10 @@ import { AlgeriaComponent } from './algeria/algeria.component';
 import { AndorraComponent } from './andorra/andorra.component';
 import { AngolaComponent } from './angola/angola.component';
 import { AntiguaComponent } from './antigua/antigua.component';
+import { ArgentinaComponent } from './argentina/argentina.component';
+import { ArmeniaComponent } from './armenia/armenia.component';
+import { DishesComponent } from './dishes/dishes.component';
+import { DessertsComponent } from './desserts/desserts.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { AntiguaComponent } from './antigua/antigua.component';
     AlgeriaComponent,
     AndorraComponent,
     AngolaComponent,
-    AntiguaComponent
+    AntiguaComponent,
+    ArgentinaComponent,
+    ArmeniaComponent,
+    DishesComponent,
+    DessertsComponent
   ],
   imports: [
     BrowserModule,

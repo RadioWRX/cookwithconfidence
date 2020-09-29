@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, Params } from '@angular/router';
 
 @Component({
   selector: 'app-andorra',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AndorraComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public router: Router
+  ) { }
 
   ngOnInit(): void {
   }

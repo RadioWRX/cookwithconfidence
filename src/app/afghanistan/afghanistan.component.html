@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12">
           <hr class="hr-style" />
-          <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" routerLink="/home" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
             </svg>Afghanistan</h5>
           </div>
@@ -13,13 +13,16 @@
       </div>
       <hr class="hr-style" />
       <div class="row">
-        <div class="col-md-6 text-center">
-          <img src="assets/images/Afghanistan.png" class="globe-image-size rounded-circle shadow" />
+        <div class="col-md-5 text-center">
+          <img src="assets/images/Afghanistan.png" class="globe-image-size rounded-circle shadow information-spacing" />
           <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
           <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
         </div>
-        <div class="col-md-6 space">
-          <table class="information-spacing">
+        <div class="col-md-7 space">
+          <hr />
+          <h5>Points of interest</h5>
+          <hr />
+          <table>
             <tr>
               <td class="member-profile-title">
                 Country:
@@ -67,8 +70,14 @@
               <td class="member-profile-text">
                 <audio id="player" src="/assets/anthems/Afghanistan.mp3" type="audio/mpeg"></audio>
                 Milli Surud
-                  <a class="cursor" onclick="document.getElementById('player').play()">(Play</a>/
-                  <a class="cursor" onclick="document.getElementById('player').pause()">Pause)</a>
+                  <a class="cursor" onclick="document.getElementById('player').play()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                    </svg>
+                  </a>/
+                  <a class="cursor" onclick="document.getElementById('player').pause()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                  </a>
               </td>
             </tr>
           </table>
@@ -79,7 +88,7 @@
         <div class="col-md-6">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="text-center">National Dish - Kabuli Palaw</h5>
+              <h5 class="text-center">Kabuli Palaw</h5>
               <hr />
               <img src="assets/images/KabuliPalaw.jpeg" class="dish-image-size" />
             </div>
@@ -88,7 +97,7 @@
         <div class="col-md-6">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="text-center">How I made it</h5>
+              <h5 class="text-center">How it's made</h5>
               <hr />
               <div class="your-centered-div">
                 <iframe id="ytplayer" type="text/html" width="100%" height="300"
@@ -96,6 +105,29 @@
                   frameborder="0">
                 </iframe>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="text-center">Origins</h5>
+              <hr />
+              <p class="text-justify">
+                Kabuli palaw or Qabuli pulao is a variety of pilaf made in Afghanistan,
+                Khyber Pakhtunkhwa and parts of Central Asian countries. It consists of
+                steamed rice mixed with raisins, carrots, and beef or lamb. Different variations
+                exist depending on the region.
+              </p>
+              <p class="text-justify">
+                Kabuli palaw is considered a festive and important dish due to the price
+                and quality of the ingredients as well as its tradition of being Afghanistan's
+                national cuisine. The dish is traditionally placed in the center of the meal
+                with other foods making up the rest of the perimeter.
+              </p>
             </div>
           </div>
         </div>
@@ -120,6 +152,7 @@
                     <li>500 gm basmati soaked rice</li>
                     <li>½ tsp ground cumin</li>
                   </ul>
+                  <hr />
                 </div>
                 <div class="col-md-6">
                   <h5>Method</h5>

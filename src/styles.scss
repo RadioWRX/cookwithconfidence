@@ -8,7 +8,7 @@
 }
 
 .information-spacing {
-  margin: 15px;
+  margin: 40px;
 }
 
 .cursor {
@@ -23,7 +23,7 @@
 
 .flag-image-size {
   height: 50px;
-  width: 100px;
+  width: 75px;
   margin-right: 20px;
 }
 
@@ -56,10 +56,6 @@ ul {
   font-family: Calibri, sans-serif
 }
 
-.hr-style {
-  border-color: red;
-}
-
 ol {
   list-style-type: none;
   counter-reset: my-awesome-counter;
@@ -77,4 +73,13 @@ ol li::before {
   text-align: center;
   margin-right: 5px;
   color: #000;
+}
+
+.member-profile-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.member-profile-text {
+  font-size: 14px;
 }

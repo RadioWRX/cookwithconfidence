@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12">
           <hr class="hr-style" />
-          <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" routerLink="/home" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
             </svg>Albania</h5></div>
           <div id="element2" tooltip="Options" placement="left"><img src="assets/images/AlbaniaFlag.png" class="rounded flag-image-size shadow" /></div>
@@ -12,13 +12,16 @@
       </div>
       <hr class="hr-style" />
       <div class="row">
-        <div class="col-md-6 text-center">
-          <img src="assets/images/Albania.png" class="shadow globe-image-size rounded-circle" />
+        <div class="col-md-5 text-center">
+          <img src="assets/images/Albania.png" class="shadow globe-image-size rounded-circle information-spacing" />
           <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
           <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
         </div>
-        <div class="col-md-6 space">
-          <table class="information-spacing">
+        <div class="col-md-7 space">
+          <hr />
+          <h5>Points of interest</h5>
+          <hr />
+          <table>
             <tr>
               <td class="member-profile-title">
                 Country:
@@ -66,8 +69,14 @@
               <td class="member-profile-text">
                 <audio id="player" src="/assets/anthems/Albania.mp3" type="audio/mpeg"></audio>
                 Himni i Flamurit
-                  <a class="cursor" onclick="document.getElementById('player').play()">(Play</a>/
-                  <a class="cursor" onclick="document.getElementById('player').pause()">Pause)</a>
+                  <a class="cursor" onclick="document.getElementById('player').play()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                    </svg>
+                  </a>/
+                  <a class="cursor" onclick="document.getElementById('player').pause()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                  </a>
               </td>
             </tr>
           </table>
@@ -78,7 +87,7 @@
         <div class="col-md-6">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="text-center">National Dish - Tav&#235; Kosi</h5>
+              <h5 class="text-center">Tav&#235; Kosi</h5>
               <hr />
               <img src="assets/images/TaveKosi.jpeg" class="dish-image-size" />
             </div>
@@ -87,7 +96,7 @@
         <div class="col-md-6">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="text-center">How I made it</h5>
+              <h5 class="text-center">How it's made</h5>
               <hr />
               <div class="your-centered-div">
                 <iframe id="ytplayer" type="text/html" width="100%" height="300"
@@ -95,6 +104,26 @@
                   frameborder="0">
                 </iframe>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="text-center">Origins</h5>
+              <hr />
+              <p class="text-justify">
+                Tavë kosi - soured milk casserole - is a national dish in Albania.
+                It is a dish of lamb and rice baked with a mixture of yogurt and eggs
+                added to a roux. It is also popular in Greece and Turkey,
+                where it is known as Elbasan tava, named after the Albanian city of Elbasan.
+              </p>
+              <p class="text-justify">
+
+              </p>
             </div>
           </div>
         </div>

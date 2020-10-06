@@ -14,6 +14,8 @@ import { ArgentinaComponent } from './argentina/argentina.component';
 import { ArmeniaComponent } from './armenia/armenia.component';
 import { DishesComponent } from './dishes/dishes.component';
 import { DessertsComponent } from './desserts/desserts.component';
+import { AustraliaComponent } from './australia/australia.component';
+import { AustriaComponent } from './austria/austria.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { DessertsComponent } from './desserts/desserts.component';
     ArgentinaComponent,
     ArmeniaComponent,
     DishesComponent,
-    DessertsComponent
+    DessertsComponent,
+    AustraliaComponent,
+    AustriaComponent
   ],
   imports: [
     BrowserModule,

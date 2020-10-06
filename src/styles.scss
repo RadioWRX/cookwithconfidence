@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 .globe-image-size {
-  height: 250px;
-  width: 250px;
+  height: 200;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
 }
 
 .information-spacing {
-  margin: 40px;
+  margin-bottom: 45px;
+  text-align: center;
 }
 
 .cursor {
@@ -75,11 +76,35 @@ ol li::before {
   color: #000;
 }
 
+th,td {
+  padding-right: 10px;
+  text-align: center;
+}
+
 .member-profile-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   padding-right: 10px;
 }
 .member-profile-text {
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.spice-images {
+  height: 75px;
+  width: 75px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 10px;
+  text-align: center;
 }

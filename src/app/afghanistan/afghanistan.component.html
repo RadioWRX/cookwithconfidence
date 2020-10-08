@@ -167,91 +167,117 @@
                   <hr />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <div class="table-responsive-sm">
-                    <table class="table">
-                      <tr>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                        <td>
-                          <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          Lamb
-                        </th>
-                      </tr>
-                    </table>
+              <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide>
+                    <div class="slide spice-images">
+                      <img src="assets/images/ingredients/lamb.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Lamb</p>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/basmatirice.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Basmati Rice</p>
                   </div>
-                  <img src="assets/images/ingredients/lamb.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/paprika.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/parsley.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                  <img src="assets/images/ingredients/bayleaves.png" class="spice-images rounded-circle shadow" />
-                </div>
-              </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/choppedonion.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Onion</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/juliennecarrots.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Carrots</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide">
+                      <img src="assets/images/ingredients/sultanas.png" class="rounded-circle spice-images">
+                      <hr />
+                      <p class="ingredient-text">Sultanas</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/cuminpowder.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Cumin Powder</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/pinenuts.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Pine Nuts</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/blackcardomompods.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Black Cardomom</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/whitesugar.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">White Sugar</p>
+                  </div>
+                </ng-template>
+              </owl-carousel-o>
               <hr />
               <div class="row">
-                <div class="col-md-6">
-                  <h5>Ingredients</h5>
+                <div class="col-md-5">
+                  <h5 class="text-center">Ingredients</h5>
                   <hr />
                   <ul>
-                    <li>1lb cubed lamb</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>½ large carrot, cut into julienne</li>
-                    <li>75 gm sultanas</li>
-                    <li>1 tbsp each slivered almonds and pistachios</li>
-                    <li>¾ tsp ground cardamom</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>500 gm basmati soaked rice</li>
-                    <li>½ tsp ground cumin</li>
+                    <li>2lb cubed lamb</li>
+                    <li>150 olive oil</li>
+                    <li>1 large carrot</li>
+                    <li>1 medium sweet onion</li>
+                    <li>½ cup Sultanas</li>
+                    <li>2 tbsp Pine nuts</li>
+                    <li>3 tbsp white sugar</li>
+                    <li>1 tsp ground Cardamom</li>
+                    <li>150 ml vegetable or olive oil</li>
+                    <li>2 cups Basmati rice</li>
+                    <li>1 tsp ground cumin</li>
+                    <li>2 cups water</li>
+                    <li>1 tbsp Turmeric</li>
                   </ul>
                   <hr />
                 </div>
-              <div class="col-md-6">
-
-                <h5>Method</h5>
+              <div class="col-md-7">
+                <h5 class="text-center">Method</h5>
                 <hr />
                 <ol>
-                  <li class="text-justify">Heat oil in a frying pan over medium-high heat, add carrot and fry,
-                    stirring occasionally, until slightly softened (2-3 minutes). Remove with a slotted
-                    spoon and transfer to a sieve to drain.
+                  <li class="text-justify">Clean the rice 4 times in a large bowl of cold water.
+                    Leave to soak while you prepare the rest of the ingredients.
+                  </li>
+                  <li class="text-justify">Slice carrot into julienne thin strips and finely
+                    dice the onion.
+                  </li>
+                  <li class="text-justify">Heat oil in a frying pan over medium heat. Add carrot, sugar and
+                    cardamom and stir occasionally until slightly softened. Remove with a slotted spoon and place
+                    on a sheet of tin foil.
                   </li>
                   <li>
-                    Add sultanas to oil, fry until they float to the surface (1-2 minutes),
-                    remove with a slotted spoon and add to carrot.
+                    Add sultanas and pine nuts to oil and fry for 1 minute. Remove with a slotted spoon
+                    and add to carrot. Wrap in a parcel and leave to one side.
                   </li>
                   <li>
-                    Add nuts, sugar and ½ tsp cardamom to pan and fry, stirring,
-                    until golden brown (1-2 minutes).Remove with a slotted spoon and add to carrot mixture.
+                    Add onion to pan and fry until golden and transluscent.
                   </li>
                   <li>
-                    Add onion to pan and fry, stirring occasionally,
-                    until golden and tender (6-8 minutes). Set aside separately.
+                    Add lamb, turmeric and ground corriander and fry until sealed.
+                    Add water and bring to boil then lower to simmer.
                   </li>
                   <li>
                     Half-fill a large saucepan with water, add 1½ tsp salt and bring to the boil over high heat. Add rice, cover and boil until rice is twice the size of the original grain (6-8 minutes), then drain in

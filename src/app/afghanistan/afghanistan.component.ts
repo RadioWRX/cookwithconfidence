@@ -13,8 +13,8 @@ export class AfghanistanComponent implements OnInit {
   customOptions: any = {
   loop: false,
   margin: 10,
-  touchDrag: true,
-  autoplay:true,
+  touchDrag:true,
+  autoplay:false,
   responsiveClass: true,
   navText: ['Previous', 'Next'],
   responsive: {
@@ -28,7 +28,7 @@ export class AfghanistanComponent implements OnInit {
      items: 8
    }
   },
- nav: true
+ nav: false
 }
 
   constructor(

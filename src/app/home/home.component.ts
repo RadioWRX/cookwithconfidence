@@ -10,8 +10,8 @@ export class HomeComponent implements OnInit {
   customOptions: any = {
   loop: false,
   margin: 10,
-  touchDrag: true,
-  autoplay:true,
+  touchDrag:true,
+  autoplay:false,
   responsiveClass: true,
   navText: ['Previous', 'Next'],
   responsive: {
@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
      items: 8
    }
   },
- nav: true
+ nav: false
 }
 
   constructor() { }

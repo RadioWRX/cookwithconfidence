@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/cookwithconfidence",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

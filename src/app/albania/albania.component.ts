@@ -8,6 +8,26 @@ import { Router, Params } from '@angular/router';
 })
 export class AlbaniaComponent implements OnInit {
 
+  customOptions: any = {
+  loop: false,
+  margin: 10,
+  autoplay:true,
+  responsiveClass: true,
+  navText: ['Previous', 'Next'],
+  responsive: {
+    0: {
+     items: 3
+   },
+    480: {
+     items: 5
+   },
+    940: {
+     items: 8
+   }
+  },
+ nav: true
+}
+
   constructor(
     public router: Router
   ) { }

@@ -6,22 +6,22 @@
           <hr class="hr-style" />
           <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" routerLink="/home" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-            </svg>Albania</h5></div>
+            </svg>Albania</h5>
+          </div>
           <div id="element2" tooltip="Options" placement="left"><img src="assets/images/flags/AlbaniaFlag.png" class="rounded flag-image-size shadow" /></div>
         </div>
       </div>
       <hr class="hr-style" />
       <div class="row">
-        <div class="col-md-3 text-center">
-          <img src="assets/images/Albania.png" class="shadow globe-image-size rounded-circle information-spacing" />
+        <div class="col-md-2 text-center">
+          <img src="assets/images/Albania.png" class="shadow globe-image-size rounded-circle map-information-spacing" />
           <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
           <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
         </div>
         <div class="col-md-1">
 
         </div>
-        <div class="col-md-4 space">
-          <h5>Points of interest</h5>
+        <div class="col-md-5 space">
           <hr />
           <table>
             <tr>
@@ -84,7 +84,7 @@
           </table>
           <hr />
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 information-spacing">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -143,7 +143,7 @@
                 Tavë kosi - soured milk casserole - is a national dish in Albania.
                 It is a dish of lamb and rice baked with a mixture of yogurt and eggs
                 added to a roux. It is also popular in Greece and Turkey,
-                where it is known as Elbasan tava, named after the Albanian city of Elbasan.
+                where it is known as Elbasan Tava, named after the Albanian city of Elbasan.
               </p>
               <p class="text-justify">
 
@@ -158,51 +158,204 @@
           <div class="card shadow">
             <div class="card-body">
               <div class="row">
-                <div class="col-md-6">
-                  <h5>Ingredients</h5>
+                <div class="col-md-12 text-center">
+                  <h5>We will need.</h5>
+                  <hr />
+                </div>
+              </div>
+              <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide>
+                    <div class="slide spice-images">
+                      <img src="assets/images/ingredients/lamb.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Lamb</p>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/basmatirice.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Basmati Rice</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/choppedonion.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Onion</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/juliennecarrots.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Carrots</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide">
+                      <img src="assets/images/ingredients/raisins.png" class="rounded-circle spice-images">
+                      <hr />
+                      <p class="ingredient-text">Raisins</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/pinenuts.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Pine Nuts</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/cuminseeds.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Cumin Seeds</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/blackcardomompods.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Black Cardomom</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/greencardamom.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Green Cardomom</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/cinnamonsticks.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Cinnamon Sticks</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/corrianderseeds.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Corriander Seeds</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/corrianderpowder.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Corriander Powder</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/cloves.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Cloves</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/anise.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Anise</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/whitesugar.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">White Sugar</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/salt.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Salt</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/blackpepper.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Black Pepper</p>
+                  </div>
+                </ng-template>
+              </owl-carousel-o>
+              <hr />
+              <div class="row">
+                <div class="col-md-5">
+                  <h5 class="text-center">Ingredients</h5>
                   <hr />
                   <ul>
-                    <li>1lb cubed lamb</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>½ large carrot, cut into julienne</li>
-                    <li>75 gm sultanas</li>
-                    <li>1 tbsp each slivered almonds and pistachios</li>
-                    <li>¾ tsp ground cardamom</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>500 gm basmati soaked rice</li>
-                    <li>½ tsp ground cumin</li>
+                    <li>2lb Cubed Lamb</li>
+                    <li>2 Cups Basmati Rice</li>
+                    <li>2 Cups Water</li>
+                    <li>4 tbsp Vegetable Oil</li>
+                    <li>1 Large Carrot</li>
+                    <li>1 Medium Sweet Onion</li>
+                    <li>2 tbsp Pine Nuts</li>
+                    <li>½ Cup Raisins</li>
+                    <li>3 tbsp White Sugar</li>
+                    <li>1 tsp Cardamom Powder</li>
+                    <li>3 Black Cardamom Pods</li>
+                    <li>1 tsp Cumin Seeds</li>
+                    <li>1 Cinnamon stick</li>
+                    <li>1 tsp Anise</li>
+                    <li>1 tsp Cloves</li>
+                    <li>1 tsp Corriander seeds</li>
+                    <li>1 tbsp Turmeric</li>
                   </ul>
-                </div>
-                <div class="col-md-6">
-                  <h5>Method</h5>
                   <hr />
-                  <ol>
-                    <li class="text-justify">Heat oil in a frying pan over medium-high heat, add carrot and fry,
-                      stirring occasionally, until slightly softened (2-3 minutes). Remove with a slotted
-                      spoon and transfer to a sieve to drain.
-                    </li>
-                    <li>
-                      Add sultanas to oil, fry until they float to the surface (1-2 minutes),
-                      remove with a slotted spoon and add to carrot.
-                    </li>
-                    <li>
-                      Add nuts, sugar and ½ tsp cardamom to pan and fry, stirring,
-                      until golden brown (1-2 minutes).Remove with a slotted spoon and add to carrot mixture.
-                    </li>
-                    <li>
-                      Add onion to pan and fry, stirring occasionally,
-                      until golden and tender (6-8 minutes). Set aside separately.
-                    </li>
-                    <li>
-                      Half-fill a large saucepan with water, add 1½ tsp salt and bring to the boil over high heat. Add rice, cover and boil until rice is twice the size of the original grain (6-8 minutes), then drain in
-                      a colander.
-                    </li>
-                    <li>
-                      Return rice to saucepan, add fried onion, cumin, remaining cardamom and 2 tsp salt, add 125ml boiling water, cover with a lid and place over high heat. Cook until steam can be seen coming from beneath the lid, reduce heat to low and cook for 20 minutes. Season to taste and serve hot scattered with carrot mixture.
-                    </li>
-                  </ol>
+                </div>
+              <div class="col-md-7">
+                <h5 class="text-center">Method</h5>
+                <hr />
+                <ol>
+                  <li class="text-justify">Clean the rice 4 times in a large bowl of cold water.
+                    Leave to soak while you prepare the rest of the ingredients.
+                  </li>
+                  <li>
+                    Prepare the Palaw Masala by grinding Corriander Seeds, Black Cardamom, Cumin Seeds, Anise, Cloves,
+                    Black Pepper and Cinnamon stick in a coffee grinder until powdered. Put to one side.
+                  </li>
+                  <li class="text-justify">Slice Carrot into julienne strips and finely
+                    dice the onion. Heat oil in a frying pan over medium heat. Add Carrot, Sugar and
+                    Cardamom Powder and stir occasionally until slightly softened. Remove with a slotted
+                    spoon and place on a sheet of tin foil.
+                  </li>
+                  <li>
+                    Add Raisins and Pine Nuts to oil and fry for 1 minute. Remove with a slotted spoon
+                    and add to Carrot. Wrap in a parcel and put to one side.
+                  </li>
+                  <li>
+                    Add Onion to pan and fry until golden and transluscent. Add Lamb, Turmeric and 1 tbsp
+                    of Palaw Masala and fry until sealed. Add salt and water and bring to boil then lower
+                    to simmer until lamb is soft.
+                  </li>
+                  <li>
+                    Once Lamb is cooked remove from broth and put to one side. Sieve the broth
+                    into a large bowl. This will be used to cook the Rice.
+                  </li>
+                  <li>
+                    Add Sugar to a large pot and heat until melted. Add broth to the pot and bring to the boil.
+                    Reduce heat to low, drain water from Rice and add to pan. Cover and cook on low until Rice
+                    is 80% cooked.
+                  </li>
+                  <li>
+                    Sieve Rice from the broth and layer into a caserole dish, sprinkling the rest of Palaw Masala
+                    between layers. Ladel the remaining broth over the Rice. Place Lamb on top of the Rice
+                    one side and the parcel of Carrots, Raisins and Pine Nuts on the other side. Cover and cook
+                    in the oven at 350 farenheit for 15 minutes.
+                  </li>
+                  <li>
+                    Remove parcel and stir Lamb into the Rice. Cover the dish with Carrots, Raisins, Pine Nuts
+                    and serve.
+                  </li>
+                </ol>
               </div>
-              <p class="recipe-text"></p>
             </div>
           </div>
         </div>

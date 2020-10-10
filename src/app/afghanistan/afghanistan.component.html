@@ -13,16 +13,15 @@
       </div>
       <hr class="hr-style" />
       <div class="row">
-        <div class="col-md-3 text-center">
-          <img src="assets/images/Afghanistan.png" class="globe-image-size rounded-circle shadow information-spacing" />
+        <div class="col-md-2 text-center">
+          <img src="assets/images/Afghanistan.png" class="globe-image-size rounded-circle shadow map-information-spacing" />
           <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
           <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
         </div>
         <div class="col-md-1">
 
         </div>
-        <div class="col-md-4 space">
-          <h5>Points of interest</h5>
+        <div class="col-md-5 space">
           <hr />
           <table>
             <tr>
@@ -85,7 +84,7 @@
           </table>
           <hr />
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 information-spacing">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -141,9 +140,9 @@
               <h5 class="text-center">Origins</h5>
               <hr />
               <p class="text-justify">
-                Kabuli palaw or Qabuli pulao is a variety of pilaf made in Afghanistan,
+                Kabuli Palaw or Qabuli Pulao is a variety of pilaf made in Afghanistan,
                 Khyber Pakhtunkhwa and parts of Central Asian countries. It consists of
-                steamed rice mixed with raisins, carrots, and beef or lamb. Different variations
+                steamed rice mixed with Raisins, Carrots, and Beef or Lamb. Different variations
                 exist depending on the region.
               </p>
               <p class="text-justify">
@@ -198,16 +197,9 @@
                 </ng-template>
                 <ng-template carouselSlide>
                   <div class="slide">
-                      <img src="assets/images/ingredients/sultanas.png" class="rounded-circle spice-images">
+                      <img src="assets/images/ingredients/raisins.png" class="rounded-circle spice-images">
                       <hr />
-                      <p class="ingredient-text">Sultanas</p>
-                  </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                  <div class="slide spice-images">
-                      <img src="assets/images/ingredients/cuminpowder.png" class="rounded-circle">
-                      <hr />
-                      <p class="ingredient-text">Cumin Powder</p>
+                      <p class="ingredient-text">Raisins</p>
                   </div>
                 </ng-template>
                 <ng-template carouselSlide>
@@ -215,6 +207,13 @@
                       <img src="assets/images/ingredients/pinenuts.png" class="rounded-circle">
                       <hr />
                       <p class="ingredient-text">Pine Nuts</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/cuminseeds.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Cumin Seeds</p>
                   </div>
                 </ng-template>
                 <ng-template carouselSlide>
@@ -240,23 +239,30 @@
                 </ng-template>
                 <ng-template carouselSlide>
                   <div class="slide spice-images">
-                      <img src="assets/images/ingredients/salt.png" class="rounded-circle">
+                      <img src="assets/images/ingredients/corrianderseeds.png" class="rounded-circle">
                       <hr />
-                      <p class="ingredient-text">Salt</p>
+                      <p class="ingredient-text">Corriander Seeds</p>
                   </div>
                 </ng-template>
                 <ng-template carouselSlide>
                   <div class="slide spice-images">
-                      <img src="assets/images/ingredients/oil.png" class="rounded-circle">
+                      <img src="assets/images/ingredients/corrianderpowder.png" class="rounded-circle">
                       <hr />
-                      <p class="ingredient-text">Oil</p>
+                      <p class="ingredient-text">Corriander Powder</p>
                   </div>
                 </ng-template>
                 <ng-template carouselSlide>
                   <div class="slide spice-images">
-                      <img src="assets/images/ingredients/blackcardomompods.png" class="rounded-circle">
+                      <img src="assets/images/ingredients/cloves.png" class="rounded-circle">
                       <hr />
-                      <p class="ingredient-text">Black Cardomom</p>
+                      <p class="ingredient-text">Cloves</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/anise.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Anise</p>
                   </div>
                 </ng-template>
                 <ng-template carouselSlide>
@@ -266,25 +272,43 @@
                       <p class="ingredient-text">White Sugar</p>
                   </div>
                 </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/salt.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Salt</p>
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                      <img src="assets/images/ingredients/blackpepper.png" class="rounded-circle">
+                      <hr />
+                      <p class="ingredient-text">Black Pepper</p>
+                  </div>
+                </ng-template>
               </owl-carousel-o>
               <hr />
               <div class="row">
                 <div class="col-md-5">
                   <h5 class="text-center">Ingredients</h5>
                   <hr />
-                  <ul>
-                    <li>2lb cubed lamb</li>
-                    <li>150 olive oil</li>
-                    <li>1 large carrot</li>
-                    <li>1 medium sweet onion</li>
-                    <li>½ cup Sultanas</li>
-                    <li>2 tbsp Pine nuts</li>
-                    <li>3 tbsp white sugar</li>
-                    <li>1 tsp Cardamom powder</li>
-                    <li>150 ml vegetable or olive oil</li>
-                    <li>2 cups Basmati rice</li>
-                    <li>1 tsp cumin powder</li>
-                    <li>2 cups water</li>
+                  <ul class="recipe-text">
+                    <li>2lb Cubed Lamb</li>
+                    <li>2 Cups Basmati Rice</li>
+                    <li>2 Cups Water</li>
+                    <li>4 tbsp Vegetable Oil</li>
+                    <li>1 Large Carrot</li>
+                    <li>1 Medium Sweet Onion</li>
+                    <li>2 tbsp Pine Nuts</li>
+                    <li>½ Cup Raisins</li>
+                    <li>3 tbsp White Sugar</li>
+                    <li>1 tsp Cardamom Powder</li>
+                    <li>3 Black Cardamom Pods</li>
+                    <li>1 tsp Cumin Seeds</li>
+                    <li>1 Cinnamon stick</li>
+                    <li>1 tsp Anise</li>
+                    <li>1 tsp Cloves</li>
+                    <li>1 tsp Corriander seeds</li>
                     <li>1 tbsp Turmeric</li>
                   </ul>
                   <hr />
@@ -292,34 +316,46 @@
               <div class="col-md-7">
                 <h5 class="text-center">Method</h5>
                 <hr />
-                <ol>
+                <ol class="recipe-text">
                   <li class="text-justify">Clean the rice 4 times in a large bowl of cold water.
-                    Leave to soak while you prepare the rest of the ingredients.
-                  </li>
-                  <li class="text-justify">Slice carrot into julienne thin strips and finely
-                    dice the onion.
-                  </li>
-                  <li class="text-justify">Heat oil in a frying pan over medium heat. Add carrot, sugar and
-                    cardamom and stir occasionally until slightly softened. Remove with a slotted spoon and place
-                    on a sheet of tin foil.
+                    Leave to soak while preparing the rest of the ingredients.
                   </li>
                   <li>
-                    Add sultanas and pine nuts to oil and fry for 1 minute. Remove with a slotted spoon
-                    and add to carrot. Wrap in a parcel and leave to one side.
+                    Make the Palaw Masala by grinding Corriander Seeds, Black Cardamom, Cumin Seeds, Anise, Cloves,
+                    Black Pepper and Cinnamon stick in a coffee grinder until powdered. Put to one side.
+                  </li>
+                  <li class="text-justify">Slice Carrot into julienne strips and finely
+                    dice the onion. Heat oil in a frying pan over medium heat. Add Carrot, Sugar and
+                    Cardamom Powder and stir occasionally until slightly softened. Remove with a slotted
+                    spoon and place on a sheet of tin foil.
                   </li>
                   <li>
-                    Add onion to pan and fry until golden and transluscent.
+                    Add Raisins and Pine Nuts to oil and fry for 1 minute. Remove with a slotted spoon
+                    and add to Carrot. Wrap in a parcel and put to one side.
                   </li>
                   <li>
-                    Add lamb, turmeric and ground corriander and fry until sealed.
-                    Add water and bring to boil then lower to simmer.
+                    Add Onion to pan and fry until golden and transluscent. Add Lamb, Turmeric and 1 tbsp
+                    of Palaw Masala and fry until sealed. Add salt and water, bring to boil then lower
+                    to simmer until lamb is tender. Approximately 45 minutes.
                   </li>
                   <li>
-                    Half-fill a large saucepan with water, add 1½ tsp salt and bring to the boil over high heat. Add rice, cover and boil until rice is twice the size of the original grain (6-8 minutes), then drain in
-                    a colander.
+                    Once Lamb is cooked remove from broth and put to one side. Sieve the broth
+                    into a large bowl. This will be used to cook the Rice.
                   </li>
                   <li>
-                    Return rice to saucepan, add fried onion, cumin, remaining cardamom and 2 tsp salt, add 125ml boiling water, cover with a lid and place over high heat. Cook until steam can be seen coming from beneath the lid, reduce heat to low and cook for 20 minutes. Season to taste and serve hot scattered with carrot mixture.
+                    Add Sugar to a large pot and heat until melted. Add broth to the pot and bring to the boil.
+                    Reduce heat to a simmer, drain water from Rice and add to pot. Cover and cook on low until Rice
+                    is 80% cooked.
+                  </li>
+                  <li>
+                    Sieve Rice from the broth and layer into a caserole dish, sprinkling the rest of Palaw Masala
+                    between layers. Ladel the remaining broth over the Rice. Place Lamb on top of the Rice on
+                    one side and the parcel of Carrots, Raisins and Pine Nuts on the other side. Cover and cook
+                    in the oven at 350 farenheit for 15 minutes.
+                  </li>
+                  <li>
+                    Remove parcel and stir Lamb into the Rice. Cover the dish with Carrots, Raisins, Pine Nuts
+                    and serve.
                   </li>
                 </ol>
               </div>

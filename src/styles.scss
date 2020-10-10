@@ -1,16 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 .globe-image-size {
-  height: 200;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 175px;
+  width: 175px;
   border-radius: 10px;
 }
 
 .information-spacing {
-  margin-bottom: 45px;
+  margin-top: 20px;
   text-align: center;
 }
+
+.map-information-spacing {
+  margin-top: 35px;
+  text-align: center;
+}
+
 
 .cursor {
   cursor: pointer;
@@ -65,7 +69,7 @@ ol {
 }
 ol li {
   counter-increment: my-awesome-counter;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 ol li::before {
   content: counter(my-awesome-counter) ". ";
@@ -76,24 +80,20 @@ ol li::before {
   color: #000;
 }
 
-th,td {
-  padding-right: 10px;
-  text-align: center;
-}
-
 .member-profile-title {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   padding-right: 10px;
 }
+
 .member-profile-text {
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 .carousel-image {
   width: 100%;
   height: 200px;
-  margin-top: 30px;
 }
 
 .spice-images {
@@ -108,4 +108,8 @@ th,td {
   font-size: 11px;
   font-weight: bold;
   text-align: center;
+}
+
+.recipe-text {
+  font-size: 18px;
 }

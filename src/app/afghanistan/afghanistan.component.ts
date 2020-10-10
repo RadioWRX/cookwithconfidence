@@ -21,10 +21,10 @@ export class AfghanistanComponent implements OnInit {
      items: 3
    },
     480: {
-     items: 4
+     items: 5
    },
     940: {
-     items: 10
+     items: 8
    }
   },
  nav: true

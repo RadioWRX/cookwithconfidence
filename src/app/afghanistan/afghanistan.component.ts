@@ -13,6 +13,7 @@ export class AfghanistanComponent implements OnInit {
   customOptions: any = {
   loop: false,
   margin: 10,
+  touchDrag: true,
   autoplay:true,
   responsiveClass: true,
   navText: ['Previous', 'Next'],

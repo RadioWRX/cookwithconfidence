@@ -7,6 +7,7 @@
   height: 200px;
   width: 200px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .center-image {
@@ -66,23 +67,8 @@ ul {
   font-family: Calibri, sans-serif
 }
 
-ol {
-  list-style-type: none;
-  counter-reset: my-awesome-counter;
-  text-align: justify;
-  font-family: Calibri, sans-serif
-}
-ol li {
-  counter-increment: my-awesome-counter;
-  margin: 15px 0;
-}
-ol li::before {
-  content: counter(my-awesome-counter) ". ";
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-right: 5px;
-  color: #000;
+hr {
+  background-color: grey;
 }
 
 .member-profile-title {
@@ -116,7 +102,7 @@ ol li::before {
 }
 
 .recipe-text {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card-spacing {

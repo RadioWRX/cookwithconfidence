@@ -1,15 +1,15 @@
-<br />
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 layer-spacing">
 			<div class="card shadow">
-				<div class="card-body">
+				<div class="card-header bg-dark text-light">
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h5>Choose a Country</h5>
-							<hr />
 						</div>
 					</div>
+				</div>
+				<div class="card-body">
 					<owl-carousel-o [options]="customOptions">
 						<ng-template carouselSlide>
 								<div class="slide">
@@ -72,17 +72,17 @@
 			</div>
 		</div>
 	</div>
-	<hr />
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 layer-spacing">
 			<div class="card shadow">
-				<div class="card-body">
+				<div class="card-header bg-dark text-light">
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h5>Choose a Dish</h5>
-							<hr />
 						</div>
 					</div>
+				</div>
+				<div class="card-body">
 					<owl-carousel-o [options]="customOptions">
 						<ng-template carouselSlide>
 								<div class="slide">
@@ -128,16 +128,89 @@
 						</ng-template>
 						<ng-template carouselSlide>
 							<div class="slide">
-									<a [routerLink]="'/argentina'"><img src="assets/images/dishes/Asado.png" class="rounded"></a>
-									<hr />
-									<p class="ingredient-text">Asado</p>
+								<a [routerLink]="'/argentina'"><img src="assets/images/dishes/Asado.png" class="rounded"></a>
+								<hr />
+								<p class="ingredient-text">Asado</p>
 							</div>
 						</ng-template>
 						<ng-template carouselSlide>
 							<div class="slide">
-									<a [routerLink]="'/armenia'"><img src="assets/images/dishes/Harissa.png" class="rounded"></a>
+								<a [routerLink]="'/armenia'"><img src="assets/images/dishes/Harissa.png" class="rounded"></a>
+								<hr />
+								<p class="ingredient-text">Harissa</p>
+							</div>
+						</ng-template>
+					</owl-carousel-o>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 layer-spacing">
+			<div class="card shadow">
+				<div class="card-header bg-dark text-light">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h5>Choose a Dessert</h5>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<owl-carousel-o [options]="customOptions">
+						<ng-template carouselSlide>
+								<div class="slide">
+									<a [routerLink]="'/afghanistan'"><img src="assets/images/dishes/KabuliPalaw.png" class="rounded"></a>
 									<hr />
-									<p class="ingredient-text">Harissa</p>
+									<p class="ingredient-text">Kabuli Palaw</p>
+								</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+									<a [routerLink]="'/albania'"><img src="assets/images/dishes/TaveKosi.png" class="rounded"></a>
+									<hr />
+									<p class="ingredient-text">Tave Kosi</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+									<a [routerLink]="'/algeria'"><img src="assets/images/dishes/Couscous.png" class="rounded"></a>
+									<hr />
+									<p class="ingredient-text">Couscous</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+									<a [routerLink]="'/andorra'"><img src="assets/images/dishes/Escudella.png" class="rounded"></a>
+									<hr />
+									<p class="ingredient-text">Escudella</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+									<a [routerLink]="'/angola'"><img src="assets/images/dishes/MoambaDeGalinha.png" class="rounded"></a>
+									<hr />
+									<p class="ingredient-text">Moamba de Galinha</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+									<a [routerLink]="'/antigua'"><img src="assets/images/dishes/FungheePepperpot.png" class="rounded"></a>
+									<hr />
+									<p class="ingredient-text">Funghee & Pepperpot</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+								<a [routerLink]="'/argentina'"><img src="assets/images/dishes/Asado.png" class="rounded"></a>
+								<hr />
+								<p class="ingredient-text">Asado</p>
+							</div>
+						</ng-template>
+						<ng-template carouselSlide>
+							<div class="slide">
+								<a [routerLink]="'/armenia'"><img src="assets/images/dishes/Harissa.png" class="rounded"></a>
+								<hr />
+								<p class="ingredient-text">Harissa</p>
 							</div>
 						</ng-template>
 					</owl-carousel-o>

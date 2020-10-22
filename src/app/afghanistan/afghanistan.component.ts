@@ -10,7 +10,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class AfghanistanComponent implements OnInit {
 
-  customOptions: any = {
+  customOptions1: any = {
   loop: false,
   margin: 10,
   touchDrag:true,
@@ -29,6 +29,27 @@ export class AfghanistanComponent implements OnInit {
    }
   },
  nav: false
+}
+
+customOptions2: any = {
+loop: true,
+margin: 10,
+touchDrag:true,
+autoplay:true,
+responsiveClass: true,
+navText: ['Previous', 'Next'],
+responsive: {
+  0: {
+   items: 1
+ },
+  480: {
+   items: 1
+ },
+  940: {
+   items: 1
+ }
+},
+nav: false
 }
 
   constructor(

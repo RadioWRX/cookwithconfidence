@@ -74,7 +74,34 @@
                 <hr />
               </div>
               <div class="col-md-4 information-spacing">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <owl-carousel-o [options]="customOptions2">
+                  <ng-template carouselSlide>
+                      <div class="slide scenery-images">
+                        <img src="assets/images/scenery/AfghanistanScenery1.png" class="rounded">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide scenery-images">
+                        <img src="assets/images/scenery/AfghanistanScenery2.png" class="rounded">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AfghanistanScenery3.png" class="rounded">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AfghanistanScenery4.png" class="rounded">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AfghanistanScenery5.png" class="rounded">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
+                <!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block carousel-image rounded" src="/assets/images/scenery/AfghanistanScenery1.jpeg" alt="First slide">
@@ -92,7 +119,7 @@
                       <img class="d-block carousel-image rounded" src="/assets/images/scenery/AfghanistanScenery5.jpeg" alt="Fifth slide">
                     </div>
                   </div>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -156,7 +183,7 @@
             <h5 class="text-center">We Will Need.</h5>
           </div>
           <div class="card-body">
-            <owl-carousel-o [options]="customOptions">
+            <owl-carousel-o [options]="customOptions1">
               <ng-template carouselSlide>
                   <div class="slide spice-images">
                     <img src="assets/images/ingredients/lamb.png" class="rounded-circle">

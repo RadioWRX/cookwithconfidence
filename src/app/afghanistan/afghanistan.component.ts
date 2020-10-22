@@ -52,6 +52,27 @@ responsive: {
 nav: false
 }
 
+customOptions3: any = {
+loop: true,
+margin: 10,
+touchDrag:true,
+autoplay:true,
+responsiveClass: true,
+navText: ['Previous', 'Next'],
+responsive: {
+  0: {
+   items: 1
+ },
+  480: {
+   items: 1
+ },
+  940: {
+   items: 1
+ }
+},
+nav: false
+}
+
   constructor(
     public router: Router
   ) { }

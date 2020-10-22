@@ -4,10 +4,8 @@
 }
 
 .globe-image-size {
-  height: 220px;
-  width: 220px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  height: 100%;
+  width: 100%;
 }
 
 .center-image {
@@ -91,6 +89,13 @@ hr {
 
 .scenery-images {
   height: 100%;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.map-images {
+  height: 300px;
   width: 100%;
   cursor: pointer;
   text-align: center;

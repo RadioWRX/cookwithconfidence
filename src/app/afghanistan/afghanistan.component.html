@@ -11,8 +11,20 @@
         </div>
           <div class="card-body">
             <div class="row">
-              <div class="col-md-4 text-center">
-                <img src="assets/images/maps/Afghanistan.png" class="rounded-circle globe-image-size shadow information-spacing" />
+              <div class="col-md-4 information-spacing">
+                <owl-carousel-o [options]="customOptions3">
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/maps/Afghanistan.png" class="map-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/Afghanistan.png" class="map-images">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
+                <!--<img src="assets/images/maps/Afghanistan.png" class="rounded-circle globe-image-size shadow information-spacing" />-->
                 <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
                 <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
               </div>

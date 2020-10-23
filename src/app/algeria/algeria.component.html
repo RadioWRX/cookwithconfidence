@@ -1,217 +1,389 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-12">
-      <div class="row">
-        <div class="col-sm-12">
-          <hr class="hr-style" />
-          <div id="element1"><h5><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" routerLink="/home" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <div class="col-md-12 layer-spacing">
+      <div class="card shadow">
+        <div class="card-header bg-dark text-light">
+          <div id="element1"><h5><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-chevron-left cursor" routerLink="/home" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-            </svg>Algeria</h5></div>
+            </svg></h5>
+          </div>
           <div id="element2" tooltip="Options" placement="left"><img src="assets/images/flags/AlgeriaFlag.png" class="rounded flag-image-size shadow" /></div>
         </div>
-      </div>
-      <hr class="hr-style" />
-      <div class="row">
-        <div class="col-md-3 text-center">
-          <img src="assets/images/Algeria.png" class="shadow globe-image-size rounded-circle information-spacing" />
-          <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
-          <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
-        </div>
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-4 space">
-          <h5>Points of interest</h5>
-          <hr />
-          <table>
-            <tr>
-              <td class="member-profile-title">
-                Country:
-              </td>
-              <td class="member-profile-text">
-                Algeria
-              </td>
-            </tr>
-            <tr>
-              <td class="member-profile-title">
-                Population:
-              </td>
-              <td class="member-profile-text">
-                43,600,000
-              </td>
-            </tr>
-            <tr>
-              <td class="member-profile-title">
-                Languages:
-              </td>
-              <td class="member-profile-text">
-                Arabic, Berber
-              </td>
-            </tr>
-            <tr>
-              <td class="member-profile-title">
-                Capital:
-              </td>
-              <td class="member-profile-text">
-                Algiers
-              </td>
-            </tr>
-            <tr>
-              <td class="member-profile-title">
-                Currency:
-              </td>
-              <td class="member-profile-text">
-                Dinar (DZD)
-              </td>
-            </tr>
-            <tr>
-              <td class="member-profile-title">
-                Anthem:
-              </td>
-              <td class="member-profile-text">
-                <audio id="player" src="/assets/anthems/Algeria.mp3" type="audio/mpeg"></audio>
-                Kassaman
-                  <a class="cursor" onclick="document.getElementById('player').play()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                    </svg>
-                  </a>/
-                  <a class="cursor" onclick="document.getElementById('player').pause()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
-                    </svg>
-                  </a>
-              </td>
-            </tr>
-          </table>
-          <hr />
-        </div>
-        <div class="col-md-4">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlgeriaScenery1.jpeg" alt="First slide">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4 information-spacing">
+                <owl-carousel-o [options]="customOptions3">
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/maps/Algeria.png" class="map-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/Algeria.png" class="map-images rounded-circle">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
               </div>
-              <div class="carousel-item">
-                <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlgeriaScenery2.jpeg" alt="Second slide">
+              <div class="col-md-4 space">
+                <hr />
+                <h5 class="text-center">Algeria</h5>
+                <hr />
+                <table>
+                  <tr>
+                    <td class="member-profile-title">
+                      Population:
+                    </td>
+                    <td class="member-profile-text">
+                      43,600,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="member-profile-title">
+                      Languages:
+                    </td>
+                    <td class="member-profile-text">
+                      Arabic, Berber
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="member-profile-title">
+                      Capital:
+                    </td>
+                    <td class="member-profile-text">
+                      Algiers
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="member-profile-title">
+                      Currency:
+                    </td>
+                    <td class="member-profile-text">
+                      Dinar (DZD)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="member-profile-title">
+                      Anthem:
+                    </td>
+                    <td class="member-profile-text">
+                      <audio id="player" src="/assets/anthems/Algeria.mp3" type="audio/mpeg"></audio>
+                      Kassaman
+                        <a class="cursor" onclick="document.getElementById('player').play()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                          </svg>
+                        </a>/
+                        <a class="cursor" onclick="document.getElementById('player').pause()"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+                          </svg>
+                        </a>
+                    </td>
+                  </tr>
+                </table>
+                <hr />
               </div>
-              <div class="carousel-item">
-                <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlgeriaScenery3.jpeg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlgeriaScenery4.jpeg" alt="Fourth slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlgeriaScenery5.jpeg" alt="Fifth slide">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card shadow">
-            <div class="card-body">
-              <h5 class="text-center">Couscous</h5>
-              <hr />
-              <img src="assets/images/dishes/Couscous.png" class="dish-image-size" />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card shadow">
-            <div class="card-body">
-              <h5 class="text-center">How it's made</h5>
-              <hr />
-              <div class="your-centered-div">
-                <iframe id="ytplayer" type="text/html" width="100%" height="300"
-                  src="https://www.youtube.com/embed/MIS3HP4nBiU"
-                  frameborder="0">
-                </iframe>
+              <div class="col-md-4 information-spacing">
+                <owl-carousel-o [options]="customOptions2">
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlgeriaScenery1.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide scenery-images">
+                        <img src="assets/images/scenery/AlgeriaScenery2.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlgeriaScenery3.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlgeriaScenery4.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlgeriaScenery5.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <hr />
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card shadow">
-            <div class="card-body">
-              <h5 class="text-center">Origins</h5>
-              <hr />
-              <p class="text-justify">
-                In Algeria, couscous is generally served with vegetables cooked
-                in a spicy or mild broth or stew, and some meat. Algerian couscous
-                includes tomatoes and a variety of legumes and vegetables.
-              </p>
-              <p class="text-justify">
-                Couscous is usually steamed several times until it is fluffy and
-                pale in color. It is then sprinkled with almonds, cinnamon and sugar.
-                It may be served at the end of a meal or by itself in a dish called Sfouff.
-                Traditionally, this dessert is served with milk perfumed with orange
-                flower water, or it can be served plain with buttermilk in a bowl as
-                a cold light soup for supper.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card shadow">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">
-                  <h5>Ingredients</h5>
-                  <hr />
-                  <ul>
-                    <li>1lb cubed lamb</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>½ large carrot, cut into julienne</li>
-                    <li>75 gm sultanas</li>
-                    <li>1 tbsp each slivered almonds and pistachios</li>
-                    <li>¾ tsp ground cardamom</li>
-                    <li>150 ml vegetable oil</li>
-                    <li>500 gm basmati soaked rice</li>
-                    <li>½ tsp ground cumin</li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <h5>Method</h5>
-                  <hr />
-                  <ol>
-                    <li class="text-justify">Heat oil in a frying pan over medium-high heat, add carrot and fry,
-                      stirring occasionally, until slightly softened (2-3 minutes). Remove with a slotted
-                      spoon and transfer to a sieve to drain.
-                    </li>
-                    <li>
-                      Add sultanas to oil, fry until they float to the surface (1-2 minutes),
-                      remove with a slotted spoon and add to carrot.
-                    </li>
-                    <li>
-                      Add nuts, sugar and ½ tsp cardamom to pan and fry, stirring,
-                      until golden brown (1-2 minutes).Remove with a slotted spoon and add to carrot mixture.
-                    </li>
-                    <li>
-                      Add onion to pan and fry, stirring occasionally,
-                      until golden and tender (6-8 minutes). Set aside separately.
-                    </li>
-                    <li>
-                      Half-fill a large saucepan with water, add 1½ tsp salt and bring to the boil over high heat. Add rice, cover and boil until rice is twice the size of the original grain (6-8 minutes), then drain in
-                      a colander.
-                    </li>
-                    <li>
-                      Return rice to saucepan, add fried onion, cumin, remaining cardamom and 2 tsp salt, add 125ml boiling water, cover with a lid and place over high heat. Cook until steam can be seen coming from beneath the lid, reduce heat to low and cook for 20 minutes. Season to taste and serve hot scattered with carrot mixture.
-                    </li>
-                  </ol>
-              </div>
-              <p class="recipe-text"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
     </div>
+  <div class="row">
+    <div class="col-md-6 layer-spacing">
+      <div class="card shadow">
+        <div class="card-header text-center bg-dark text-light">
+          <h5 class="text-center">Couscous</h5>
+        </div>
+        <div class="card-body">
+          <img src="assets/images/dishes/Couscous.png" class="dish-image-size" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 layer-spacing">
+      <div class="card shadow">
+        <div class="card-header bg-dark text-light">
+          <h5 class="text-center">Let's Make It</h5>
+        </div>
+        <div class="card-body">
+          <div class="your-centered-div">
+            <iframe id="ytplayer" type="text/html" width="100%" height="300"
+              src="https://www.youtube.com/embed/MIS3HP4nBiU"
+              frameborder="0">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 layer-spacing">
+      <div class="card shadow">
+        <div class="card-header bg-dark text-light">
+          <h5 class="text-center">Origins</h5>
+          </div>
+          <div class="card-body">
+            <p class="text-justify">
+              In Algeria, couscous is generally served with vegetables cooked
+              in a spicy or mild broth or stew, and some meat. Algerian couscous
+              includes tomatoes and a variety of legumes and vegetables.
+            </p>
+            <p class="text-justify">
+              Couscous is usually steamed several times until it is fluffy and
+              pale in color. It is then sprinkled with almonds, cinnamon and sugar.
+              It may be served at the end of a meal or by itself in a dish called Sfouff.
+              Traditionally, this dessert is served with milk perfumed with orange
+              flower water, or it can be served plain with buttermilk in a bowl as
+              a cold light soup for supper.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 layer-spacing">
+        <div class="card shadow">
+          <div class="card-header bg-dark text-light">
+            <h5 class="text-center">We Will Need</h5>
+          </div>
+          <div class="card-body">
+            <owl-carousel-o [options]="customOptions1">
+              <ng-template carouselSlide>
+                  <div class="slide spice-images">
+                    <img src="assets/images/ingredients/lamb.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Lamb</p>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/basmatirice.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Basmati Rice</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/choppedonion.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Onion</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/juliennecarrots.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Carrots</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide">
+                    <img src="assets/images/ingredients/raisins.png" class="rounded-circle spice-images">
+                    <hr />
+                    <p class="ingredient-text">Raisins</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/pinenuts.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Pine Nuts</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/cuminseeds.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Cumin Seeds</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/blackcardomompods.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Black Cardomom</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/greencardamom.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Green Cardomom</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/cinnamonsticks.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Cinnamon Sticks</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/corrianderseeds.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Corriander Seeds</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/corrianderpowder.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Corriander Powder</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/cloves.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Cloves</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/anise.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Anise</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/whitesugar.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">White Sugar</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/salt.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Salt</p>
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide spice-images">
+                    <img src="assets/images/ingredients/blackpepper.png" class="rounded-circle">
+                    <hr />
+                    <p class="ingredient-text">Black Pepper</p>
+                </div>
+              </ng-template>
+            </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 layer-spacing">
+      <div class="card shadow">
+        <div class="card-header bg-dark text-light">
+          <h5 class="text-center">Ingredients</h5>
+        </div>
+        <div class="card-body">
+          <p>
+            Coming Soon!
+          </p>
+          <!--<ul class="recipe-text">
+            <li>2lb Cubed Lamb</li>
+            <li>2 Cups Basmati Rice</li>
+            <li>2 Cups Water</li>
+            <li>4 tbsp Vegetable Oil</li>
+            <li>1 Large Carrot</li>
+            <li>1 Medium Sweet Onion</li>
+            <li>2 tbsp Pine Nuts</li>
+            <li>½ Cup Raisins</li>
+            <li>3 tbsp White Sugar</li>
+            <li>1 tsp Cardamom Powder</li>
+            <li>3 Black Cardamom Pods</li>
+            <li>1 tsp Cumin Seeds</li>
+            <li>1 Cinnamon stick</li>
+            <li>1 tsp Anise</li>
+            <li>1 tsp Cloves</li>
+            <li>1 tsp Corriander seeds</li>
+            <li>1 tbsp Turmeric</li>
+          </ul>-->
+        </div>
+      </div>
+    </div>
+  <div class="col-md-6 layer-spacing">
+    <div class="card shadow">
+      <div class="card-header bg-dark text-light">
+        <h5 class="text-center">Method</h5>
+      </div>
+      <div class="card-body">
+        <P>
+          Coming Soon!
+        </P>
+        <!--<ul class="recipe-text text-justify">
+          <li>Clean the rice 4 times in a large bowl of cold water.
+            Leave to soak while preparing the rest of the ingredients.
+          </li>
+          <li>
+            Make the Palaw Masala by grinding Corriander Seeds, Black Cardamom, Cumin Seeds, Anise, Cloves,
+            Black Pepper and the Cinnamon stick in a coffee grinder until powdered. Put to one side.
+          </li>
+          <li>Slice Carrot into julienne strips and finely
+            dice the onion. Heat oil in a frying pan over medium heat. Add Carrot, Sugar and
+            Cardamom Powder and stir occasionally until slightly softened. Remove with a slotted
+            spoon and place on a sheet of tin foil.
+          </li>
+          <li>
+            Add Raisins and Pine Nuts to oil and fry for 1 minute. Remove with a slotted spoon
+            and add to Carrot. Wrap in a parcel and put to one side.
+          </li>
+          <li>
+            Add Onion to pan and fry until golden and transluscent. Add Lamb, Turmeric and 1 tbsp
+            of Palaw Masala and fry until sealed. Add salt and water, bring to boil then lower
+            to simmer until lamb is tender. Approximately 45 minutes.
+          </li>
+          <li>
+            Once Lamb is cooked remove from broth and put to one side. Sieve the broth
+            into a large bowl. This will be used to cook the Rice.
+          </li>
+          <li>
+            Add Sugar to a large pot and heat until melted. Add broth to the pot and bring to the boil.
+            Reduce heat to a simmer, drain water from Rice and add to pot. Cover and cook on low until Rice
+            is 80% cooked.
+          </li>
+          <li>
+            Sieve Rice from the broth and layer into a caserole dish, sprinkling the rest of Palaw Masala
+            between layers. Ladel the remaining broth over the Rice. Place Lamb on top of the Rice on
+            one side and the parcel of Carrots, Raisins and Pine Nuts on the other side. Cover and cook
+            in the oven at 350 farenheit for 15 minutes.
+          </li>
+          <li>
+            Remove parcel and stir Lamb into the Rice. Cover the dish with Carrots, Raisins, Pine Nuts
+            and serve.
+          </li>
+        </ul>-->
+      </div>
+    </div>
+  </div>
   </div>
 </div>

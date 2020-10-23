@@ -11,14 +11,23 @@
         </div>
           <div class="card-body">
             <div class="row">
-              <div class="col-md-4 text-center">
-                <img src="assets/images/maps/Albania.png" class="rounded-circle globe-image-size shadow information-spacing" />
-                <!--<img [src]="albumPic" class="rounded-circle shadow view-member-image" alt="...">-->
-                <!--<img src="assets/images/seeds.jpeg" class="rounded-circle shadow view-member-image" alt="...">-->
+              <div class="col-md-4 information-spacing">
+                <owl-carousel-o [options]="customOptions3">
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/maps/Albania.png" class="map-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/Albania.png" class="map-images">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
               </div>
               <div class="col-md-4 space">
                 <hr />
-                <h5>Albania</h5>
+                <h5 class="text-center">Albania</h5>
                 <hr />
                 <table>
                   <tr>
@@ -74,25 +83,33 @@
                 <hr />
               </div>
               <div class="col-md-4 information-spacing">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlbaniaScenery1.jpeg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlbaniaScenery2.jpeg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlbaniaScenery3.jpeg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlbaniaScenery4.jpeg" alt="Fourth slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block carousel-image rounded" src="/assets/images/scenery/AlbaniaScenery5.jpeg" alt="Fifth slide">
-                    </div>
-                  </div>
-                </div>
+                <owl-carousel-o [options]="customOptions2">
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlbaniaScenery1.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide scenery-images">
+                        <img src="assets/images/scenery/AfghanistanScenery2.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlbaniaScenery3.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlbaniaScenery4.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                  <ng-template carouselSlide>
+                      <div class="slide">
+                        <img src="assets/images/scenery/AlbaniaScenery5.png" class="rounded scenery-images">
+                      </div>
+                  </ng-template>
+                </owl-carousel-o>
               </div>
             </div>
           </div>
@@ -150,7 +167,7 @@
             <h5 class="text-center">We Will Need.</h5>
           </div>
           <div class="card-body">
-            <owl-carousel-o [options]="customOptions">
+            <owl-carousel-o [options]="customOptions1">
               <ng-template carouselSlide>
                   <div class="slide spice-images">
                     <img src="assets/images/ingredients/lamb.png" class="rounded-circle">

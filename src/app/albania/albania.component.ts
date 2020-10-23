@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, Params } from '@angular/router';
 
+import { OwlOptions } from 'ngx-owl-carousel-o';
+
 @Component({
   selector: 'app-albania',
   templateUrl: './albania.component.html',
@@ -8,10 +10,11 @@ import { Router, Params } from '@angular/router';
 })
 export class AlbaniaComponent implements OnInit {
 
-  customOptions: any = {
+  customOptions1: any = {
   loop: false,
   margin: 10,
-  autoplay:true,
+  touchDrag: true,
+  autoplay:false,
   responsiveClass: true,
   navText: ['Previous', 'Next'],
   responsive: {
@@ -25,7 +28,47 @@ export class AlbaniaComponent implements OnInit {
      items: 8
    }
   },
- nav: true
+ nav: false
+}
+
+customOptions2: any = {
+loop: true,
+margin: 10,
+autoplay:true,
+responsiveClass: true,
+navText: ['Previous', 'Next'],
+responsive: {
+  0: {
+   items: 1
+ },
+  480: {
+   items: 1
+ },
+  940: {
+   items: 1
+ }
+},
+nav: false
+}
+
+customOptions3: any = {
+loop: false,
+margin: 10,
+autoplay:false,
+responsiveClass: true,
+navText: ['Previous', 'Next'],
+responsive: {
+  0: {
+   items: 1
+ },
+  480: {
+   items: 1
+ },
+  940: {
+   items: 1
+ }
+},
+nav: false
 }
 
   constructor(

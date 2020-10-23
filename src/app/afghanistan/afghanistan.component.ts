@@ -53,10 +53,10 @@ nav: false
 }
 
 customOptions3: any = {
-loop: true,
+loop: false,
 margin: 10,
 touchDrag:true,
-autoplay:true,
+autoplay:false,
 responsiveClass: true,
 navText: ['Previous', 'Next'],
 responsive: {

@@ -57,7 +57,7 @@ const routes: Routes = [
   { path: 'bahrain', component: BahrainComponent },
   { path: 'bangladesh', component: BangladeshComponent },
   { path: 'barbados', component: BarbadosComponent },
-  { path: 'belaurus', component: BelarusComponent },
+  { path: 'belarus', component: BelarusComponent },
   { path: 'belgium', component: BelgiumComponent },
   { path: 'belize', component: BelizeComponent },
   { path: 'benin', component: BeninComponent },

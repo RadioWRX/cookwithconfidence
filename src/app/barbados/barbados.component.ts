@@ -9,6 +9,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./barbados.component.scss']
 })
 export class BarbadosComponent implements OnInit {
+  
   customOptions1: any = {
   loop: false,
   margin: 10,

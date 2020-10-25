@@ -14,6 +14,10 @@ import { ArgentinaComponent } from './argentina/argentina.component';
 import { ArmeniaComponent } from './armenia/armenia.component';
 import { AustraliaComponent } from './australia/australia.component';
 import { AustriaComponent } from './austria/austria.component';
+import { AzerbaijanComponent } from './azerbaijan/azerbaijan.component';
+import { BahamasComponent } from './bahamas/bahamas.component';
+import { BahrainComponent } from './bahrain/bahrain.component';
+import { BangladeshComponent } from './bangladesh/bangladesh.component';
 
 // This section deals with the routing for all national desserts.
 import { DessertsComponent } from './desserts/desserts.component';
@@ -34,6 +38,10 @@ const routes: Routes = [
   { path: 'armenia', component: ArmeniaComponent },
   { path: 'australia', component: AustraliaComponent },
   { path: 'austria', component: AustriaComponent },
+  { path: 'azerbaijan', component: AzerbaijanComponent },
+  { path: 'bahamas', component: BahamasComponent },
+  { path: 'bahrain', component: BahrainComponent },
+  { path: 'bangladesh', component: BangladeshComponent },
 
 
   { path: 'desserts', component: DessertsComponent },

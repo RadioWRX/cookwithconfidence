@@ -19,6 +19,10 @@ import { DishesComponent } from './dishes/dishes.component';
 import { DessertsComponent } from './desserts/desserts.component';
 import { AustraliaComponent } from './australia/australia.component';
 import { AustriaComponent } from './austria/austria.component';
+import { AzerbaijanComponent } from './azerbaijan/azerbaijan.component';
+import { BahamasComponent } from './bahamas/bahamas.component';
+import { BahrainComponent } from './bahrain/bahrain.component';
+import { BangladeshComponent } from './bangladesh/bangladesh.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import { AustriaComponent } from './austria/austria.component';
     DishesComponent,
     DessertsComponent,
     AustraliaComponent,
-    AustriaComponent
+    AustriaComponent,
+    AzerbaijanComponent,
+    BahamasComponent,
+    BahrainComponent,
+    BangladeshComponent
   ],
   imports: [
     BrowserModule,

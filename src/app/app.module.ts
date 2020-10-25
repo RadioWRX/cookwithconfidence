@@ -23,6 +23,20 @@ import { AzerbaijanComponent } from './azerbaijan/azerbaijan.component';
 import { BahamasComponent } from './bahamas/bahamas.component';
 import { BahrainComponent } from './bahrain/bahrain.component';
 import { BangladeshComponent } from './bangladesh/bangladesh.component';
+import { BarbadosComponent } from './barbados/barbados.component';
+import { BelarusComponent } from './belarus/belarus.component';
+import { BelgiumComponent } from './belgium/belgium.component';
+import { BelizeComponent } from './belize/belize.component';
+import { BeninComponent } from './benin/benin.component';
+import { BhutanComponent } from './bhutan/bhutan.component';
+import { BoliviaComponent } from './bolivia/bolivia.component';
+import { BosniaHerzegovinaComponent } from './bosnia-herzegovina/bosnia-herzegovina.component';
+import { BotswanaComponent } from './botswana/botswana.component';
+import { BrazilComponent } from './brazil/brazil.component';
+import { BruneiComponent } from './brunei/brunei.component';
+import { BulgariaComponent } from './bulgaria/bulgaria.component';
+import { BurkinaFasoComponent } from './burkina-faso/burkina-faso.component';
+import { BurundiComponent } from './burundi/burundi.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +57,21 @@ import { BangladeshComponent } from './bangladesh/bangladesh.component';
     AzerbaijanComponent,
     BahamasComponent,
     BahrainComponent,
-    BangladeshComponent
+    BangladeshComponent,
+    BarbadosComponent,
+    BelarusComponent,
+    BelgiumComponent,
+    BelizeComponent,
+    BeninComponent,
+    BhutanComponent,
+    BoliviaComponent,
+    BosniaHerzegovinaComponent,
+    BotswanaComponent,
+    BrazilComponent,
+    BruneiComponent,
+    BulgariaComponent,
+    BurkinaFasoComponent,
+    BurundiComponent
   ],
   imports: [
     BrowserModule,

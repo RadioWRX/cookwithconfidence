@@ -18,6 +18,20 @@ import { AzerbaijanComponent } from './azerbaijan/azerbaijan.component';
 import { BahamasComponent } from './bahamas/bahamas.component';
 import { BahrainComponent } from './bahrain/bahrain.component';
 import { BangladeshComponent } from './bangladesh/bangladesh.component';
+import { BarbadosComponent } from './barbados/barbados.component';
+import { BelarusComponent } from './belarus/belarus.component';
+import { BelgiumComponent } from './belgium/belgium.component';
+import { BelizeComponent } from './belize/belize.component';
+import { BeninComponent } from './benin/benin.component';
+import { BhutanComponent } from './bhutan/bhutan.component';
+import { BoliviaComponent } from './bolivia/bolivia.component';
+import { BosniaHerzegovinaComponent } from './bosnia-herzegovina/bosnia-herzegovina.component';
+import { BotswanaComponent } from './botswana/botswana.component';
+import { BrazilComponent } from './brazil/brazil.component';
+import { BruneiComponent } from './brunei/brunei.component';
+import { BulgariaComponent } from './bulgaria/bulgaria.component';
+import { BurkinaFasoComponent } from './burkina-faso/burkina-faso.component';
+import { BurundiComponent } from './burundi/burundi.component';
 
 // This section deals with the routing for all national desserts.
 import { DessertsComponent } from './desserts/desserts.component';
@@ -42,6 +56,20 @@ const routes: Routes = [
   { path: 'bahamas', component: BahamasComponent },
   { path: 'bahrain', component: BahrainComponent },
   { path: 'bangladesh', component: BangladeshComponent },
+  { path: 'barbados', component: BarbadosComponent },
+  { path: 'belaurus', component: BelarusComponent },
+  { path: 'belgium', component: BelgiumComponent },
+  { path: 'belize', component: BelizeComponent },
+  { path: 'benin', component: BeninComponent },
+  { path: 'bhutan', component: BhutanComponent },
+  { path: 'bolivia', component: BoliviaComponent },
+  { path: 'bosnia-herzegovina', component: BosniaHerzegovinaComponent },
+  { path: 'botswana', component: BotswanaComponent },
+  { path: 'brazil', component: BrazilComponent },
+  { path: 'brunei', component: BruneiComponent },
+  { path: 'bulgaria', component: BulgariaComponent },
+  { path: 'burkina-faso', component: BurkinaFasoComponent },
+  { path: 'burundi', component: BurundiComponent },
 
 
   { path: 'desserts', component: DessertsComponent },

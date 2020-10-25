@@ -4,12 +4,11 @@ import { Router, Params } from '@angular/router';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
-  selector: 'app-bangladesh',
-  templateUrl: './bangladesh.component.html',
-  styleUrls: ['./bangladesh.component.scss']
+  selector: 'app-barbados',
+  templateUrl: './barbados.component.html',
+  styleUrls: ['./barbados.component.scss']
 })
-export class BangladeshComponent implements OnInit {
-
+export class BarbadosComponent implements OnInit {
   customOptions1: any = {
   loop: false,
   margin: 10,

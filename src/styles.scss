@@ -122,3 +122,14 @@ hr {
 .layer-spacing {
   margin-top: 15px;
 }
+
+.dropdown-menu {
+  width: 300px !important;
+  height:600px;
+  overflow-y:auto;
+}
+
+.dropdown-item-image {
+  width: 30px;
+  height: 25px;
+}

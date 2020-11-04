@@ -37,6 +37,23 @@ import { BruneiComponent } from './brunei/brunei.component';
 import { BulgariaComponent } from './bulgaria/bulgaria.component';
 import { BurkinaFasoComponent } from './burkina-faso/burkina-faso.component';
 import { BurundiComponent } from './burundi/burundi.component';
+import { CoteDivoireComponent } from './cote-divoire/cote-divoire.component';
+import { CaboVerdeComponent } from './cabo-verde/cabo-verde.component';
+import { CambodiaComponent } from './cambodia/cambodia.component';
+import { CameroonComponent } from './cameroon/cameroon.component';
+import { CanadaComponent } from './canada/canada.component';
+import { CentralAfricanRepublicComponent } from './central-african-republic/central-african-republic.component';
+import { ChadComponent } from './chad/chad.component';
+import { ChileComponent } from './chile/chile.component';
+import { ChinaComponent } from './china/china.component';
+import { ColombiaComponent } from './colombia/colombia.component';
+import { ComorosComponent } from './comoros/comoros.component';
+import { CostaRicaComponent } from './costa-rica/costa-rica.component';
+import { CroatiaComponent } from './croatia/croatia.component';
+import { CubaComponent } from './cuba/cuba.component';
+import { CyprusComponent } from './cyprus/cyprus.component';
+import { CzechiaComponent } from './czechia/czechia.component';
+import { CongoComponent } from './congo/congo.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +88,24 @@ import { BurundiComponent } from './burundi/burundi.component';
     BruneiComponent,
     BulgariaComponent,
     BurkinaFasoComponent,
-    BurundiComponent
+    BurundiComponent,
+    CoteDivoireComponent,
+    CaboVerdeComponent,
+    CambodiaComponent,
+    CameroonComponent,
+    CanadaComponent,
+    CentralAfricanRepublicComponent,
+    ChadComponent,
+    ChileComponent,
+    ChinaComponent,
+    ColombiaComponent,
+    ComorosComponent,
+    CostaRicaComponent,
+    CroatiaComponent,
+    CubaComponent,
+    CyprusComponent,
+    CzechiaComponent,
+    CongoComponent
   ],
   imports: [
     BrowserModule,

@@ -32,6 +32,23 @@ import { BruneiComponent } from './brunei/brunei.component';
 import { BulgariaComponent } from './bulgaria/bulgaria.component';
 import { BurkinaFasoComponent } from './burkina-faso/burkina-faso.component';
 import { BurundiComponent } from './burundi/burundi.component';
+import { CaboVerdeComponent } from './cabo-verde/cabo-verde.component';
+import { CambodiaComponent } from './cambodia/cambodia.component';
+import { CameroonComponent } from './cameroon/cameroon.component';
+import { CanadaComponent } from './canada/canada.component';
+import { CentralAfricanRepublicComponent } from './central-african-republic/central-african-republic.component';
+import { ChadComponent } from './chad/chad.component';
+import { ChileComponent } from './chile/chile.component';
+import { ChinaComponent } from './china/china.component';
+import { ColombiaComponent } from './colombia/colombia.component';
+import { ComorosComponent } from './comoros/comoros.component';
+import { CongoComponent } from './congo/congo.component';
+import { CostaRicaComponent } from './costa-rica/costa-rica.component';
+import { CoteDivoireComponent } from './cote-divoire/cote-divoire.component';
+import { CroatiaComponent } from './croatia/croatia.component';
+import { CubaComponent } from './cuba/cuba.component';
+import { CyprusComponent } from './cyprus/cyprus.component';
+import { CzechiaComponent } from './czechia/czechia.component';
 
 // This section deals with the routing for all national desserts.
 import { DessertsComponent } from './desserts/desserts.component';
@@ -70,6 +87,24 @@ const routes: Routes = [
   { path: 'bulgaria', component: BulgariaComponent },
   { path: 'burkina-faso', component: BurkinaFasoComponent },
   { path: 'burundi', component: BurundiComponent },
+  { path: 'cabo-verde', component: CaboVerdeComponent },
+  { path: 'cambodia', component: CambodiaComponent },
+  { path: 'cameroon', component: CameroonComponent },
+  { path: 'canada', component: CanadaComponent },
+  { path: 'cambodia', component: CambodiaComponent },
+  { path: 'central-african-Republic', component: CentralAfricanRepublicComponent },
+  { path: 'chad', component: ChadComponent },
+  { path: 'chile', component: ChileComponent },
+  { path: 'china', component: ChinaComponent },
+  { path: 'colombia', component: ColombiaComponent },
+  { path: 'comoros', component: ComorosComponent },
+  { path: 'congo', component: CongoComponent },
+  { path: 'costa-rica', component: CostaRicaComponent },
+  { path: 'cote-divoire', component: CoteDivoireComponent },
+  { path: 'croatia', component: CroatiaComponent },
+  { path: 'cuba', component: CubaComponent },
+  { path: 'cyprus', component: CyprusComponent },
+  { path: 'czechia', component: CzechiaComponent },
 
 
   { path: 'desserts', component: DessertsComponent },
